@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<head>
+    <title>Empty cells</title>
+    <style>
+    td{
+        border:1px solid #0088dd;
+        padding:15px;
+
+    }
+    table.one{
+        empty-cells:show;
+        border-spacing:5px 15px;
+    }
+    table.two{
+        empty-cells: hide;
+        border-collapse:collapse;
+
+    }
+    </style>
+</head>
+<body>
+    <table class="one">
+        <tr >
+            <td>1</td>
+            <td>2</td>
+        </tr>
+        <tr >
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr >
+            <td>5</td>
+            <td></td>
+        </tr>
+    </table>
+    <table class="two">
+            <tr >
+                <td>1</td>
+                <td>2</td>
+            </tr>
+            <tr >
+                <td>3</td>
+                <td>4</td>
+            </tr>
+            <tr >
+                <td>5</td>
+                <td></td>
+            </tr>
+        </table>
+</body>
+</html>

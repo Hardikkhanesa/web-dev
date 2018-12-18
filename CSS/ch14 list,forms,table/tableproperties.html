@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<head>
+    <title>Table properties</title>
+    <style>
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        color:#111111;
+    }
+    table{
+        width:600px;
+    }
+    th,td{
+        padding: 7px 10px 10px 10px;
+    }
+    th{
+        text-transform: uppercase;
+        letter-spacing: 0.1em;
+        font-size:90%;
+        border-bottom:2px solid #111111;
+        border-top:1px solid #999;
+        text-align:left;
+    }
+    tr.even{
+        background-color:#efefef;
+
+    }
+    tr:hover{
+        background-color:#c3e6e5;
+
+    }
+    .money{
+        text-align:right;
+    }
+    </style>
+</head>
+<body>
+    <h1>First audition auction</h1>
+    <table>
+        <tr>
+            <th>player</th>
+            <th>Team</th>
+            <th class="m">Reserve price</th>
+            <th class="m">Current bid</th>
+        </tr>
+        <tr class="even">
+            <td>pruthvi shaw</td>
+            <td>Chennai super Kings</td>
+            <td class="m">1cr</td>
+            <td class="m">4cr</td>
+        </tr>
+        <tr>
+            <td>rishabh pant</td>
+            <td>mumbai indians</td>
+            <td class="m">10lac</td>
+            <td class="m">2cr</td>
+        </tr>
+        <tr class="even">
+            <td>virat kohli</td>
+            <td>royal challengers bangalore</td>
+            <td class="m">5cr</td>
+            <td class="m">15cr</td>
+        </tr>
+
+    </table>
+</body>
